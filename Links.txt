@@ -1,0 +1,59 @@
+https://www.kaggle.com/code/rohullahakbari12/threat-detection-in-cybersecurity
+
+
+
+1. Accuracy (%)
+Model Name	             DoS	Probe	U2R	R2L
+Random Forest	             99.77	99.66	99.76	97.96
+K-Nearest Neighbors	     99.72	99.08	96.70	99.71
+Support Vector Machine	     99.37	98.45	99.65	96.79
+Ensemble Voting(RF+KNN+SVM)  99.73	99.26	99.73	97.93
+XGBoost         	     99.79	99.71	98.32	99.82
+CatBoost        	     99.85	99.73	99.83	98.66
+AdaBoost        	     99.58	99.42	97.62	99.74
+
+(Running atleast 12 hours)
+CNN - all around 90s
+BiLSTM - 93's around 
+Sequential BiLSTM - around 90s
+
+
+
+
+2. Precision (%)
+Model Name	DoS	Probe	U2R	R2L
+Random Forest	99.79	99.72	88.50	97.39
+K-Nearest Neighbors	99.68	98.90	85.00	95.11
+Support Vector Machine	99.07	96.91	83.33	94.27
+Ensemble Voting	99.65	97.50	84.62	96.88
+
+
+
+3. Recall (%)
+Model Name	DoS	Probe	U2R	R2L
+Random Forest	99.65	99.05	85.71	97.10
+K-Nearest Neighbors	99.65	98.20	90.48	98.65
+Support Vector Machine	99.50	98.30	88.89	96.90
+Ensemble Voting	98.90	98.30	87.50	96.88
+
+
+4. F1-Measure (%)
+Model Name	DoS	Probe	U2R	R2L
+Random Forest	99.72	99.38	87.00	97.25
+K-Nearest Neighbors	99.67	98.55	87.75	96.88
+Support Vector Machine	99.28	97.61	85.92	95.53
+Ensemble Voting	99.27	97.89	85.92	96.88
+
+
+
+
+
+Key References
+
+Tavallaee, M., et al. (2009). "A detailed analysis of the KDD CUP 99 data set." IEEE CISDA.
+
+Aljawarneh, S., et al. (2017). "Hybridizing RFE and SMOTE for intrusion detection." Journal of Cybersecurity.
+
+Haq, N. F., et al. (2015). "Feature selection for NSL-KDD using PCA." IEEE Access.
+
+Devi, R., & Suganthe, R. C. (2020). "SMOTE for U2R/R2L attack detection." Journal of Network Security.
